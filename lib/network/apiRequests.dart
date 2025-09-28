@@ -52,7 +52,7 @@ static  Future<ArticlesListData> searchArticals(String querysearch , int numberP
     var queryparam ={
       'apiKey': ApiConstant.apiKey,
       "q": querysearch,
-      "pageSize":'10',
+      "pageSize":'40',
       "page": numberPageitem.toString(),
     };
   var reponse = await http.get(Uri.https(ApiConstant.baseUrl, Endpoints.getArticals, queryparam));

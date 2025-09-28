@@ -40,6 +40,7 @@ class _HomescreenState extends State<Homescreen> {
             IconButton(
               icon: const Icon(Icons.search),
               onPressed: () {
+                provider.articlesList.clear();
                 Navigator.pushNamed(context, Searchscreen.routeName);
               },
             ),
