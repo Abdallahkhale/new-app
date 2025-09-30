@@ -50,7 +50,6 @@ You can generate your own API key at:
 
 ## 📸 Screenshots
 
-*(Add your screenshots inside an `images` folder and update the filenames as needed.)*
 
 ### ▶️ Home Screen
 ![Home](image_news/homescreen.png)
@@ -98,3 +97,4 @@ flutter pub get
 
 # Run the app
 flutter run
+
