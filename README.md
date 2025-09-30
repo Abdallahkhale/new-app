@@ -58,10 +58,10 @@ You can generate your own API key at:
 ![Search](image_news/search.png)
 
 ### ▶️ News Details
-![Details](image news/news_details.png)
+![Details](image_news/news_details.png)
 
 ### ▶️ Sources
-![Sources](image news/newssource.png)
+![Sources](image_news/newssource.png)
 
 ---
 
@@ -97,4 +97,5 @@ flutter pub get
 
 # Run the app
 flutter run
+
 
