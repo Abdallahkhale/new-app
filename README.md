@@ -1,35 +1,35 @@
-# 📰 News App
+#  News App
 
 A Flutter-based mobile application that provides news from various categories and sources using the **MVVM architecture**.  
 The app fetches real-time articles using **NewsAPI** and displays them in a clean and user-friendly interface.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📌 **Multiple News Categories**
+-  **Multiple News Categories**
   - General  
   - Sports  
   - Science  
   - Technology  
   - Business  
 
-- 🌍 **News from Multiple Sources**  
+-  **News from Multiple Sources**  
   Each category provides news from different trusted sources via API.
 
-- 🏠 **Home Screen**
+-  **Home Screen**
   - Displays news filtered by category.
 
-- 🔍 **Search Screen**
+-  **Search Screen**
   - Search for any news topic across all sources.
 
-- 📄 **Details Screen**
+-  **Details Screen**
   - View the full details of each news article.
 
-- 📰 **News Sources**
+-  **News Sources**
   - Browse articles by publisher/source.
 
-- 🏗️ **MVVM Architecture**
+-  **MVVM Architecture**
   - Organized folder structure:
     - Models  
     - Views  
@@ -38,7 +38,7 @@ The app fetches real-time articles using **NewsAPI** and displays them in a clea
 
 ---
 
-## 🌐 API Used
+##  API Used
 
 This app uses **NewsAPI** to fetch news articles:
 
@@ -48,19 +48,19 @@ You can generate your own API key at:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 
-### ▶️ Home Screen
+###  Home Screen
 ![Home](image_news/homescreen.png)
 
-### ▶️ Search Screen
+###  Search Screen
 ![Search](image_news/search.png)
 
-### ▶️ News Details
+### News Details
 ![Details](image_news/news_details.png)
 
-### ▶️ Sources
+###  Sources
 ![Sources](image_news/newssource.png)
 
 ---
@@ -74,16 +74,16 @@ You can generate your own API key at:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### ✅ Prerequisites
+###  Prerequisites
 
 - Flutter SDK  
 - Android Studio or VS Code  
 - Emulator or real device  
 - NewsAPI key  
 
-### ✅ Installation
+###  Installation
 
 ```bash
 # Clone the repository
