@@ -178,9 +178,11 @@ class _SearchscreenState extends State<Searchscreen> {
       showModalBottomSheet(
         backgroundColor: Colors.black,
         isScrollControlled: true,
-        context: context, builder: (BuildContext context) => Container(
+        context: context, builder: (BuildContext context) => SafeArea(
+        top: false,
+        child: Container(
         padding: const EdgeInsets.all(8.0),
-        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        margin: const EdgeInsets.fromLTRB(16, 8, 16, 16),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -234,7 +236,7 @@ class _SearchscreenState extends State<Searchscreen> {
           
           ],
       )
-      ));
+      )));
 
   }
 
